@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.style.css">
+    <title>Ékszer shop</title>
+</head>
+<body>
+    <header style="background-image: url('pics/header.jpg');">
+        <h1>Ékszer Shop</h1>
+        
+    </header>
+
+    <nav>
+        <a href="#">Kezdőlap</a>
+        <a href="#">Szolgáltatások</a>
+        <a href="#">Rólunk</a>
+        <a href="#">Kapcsolat</a>
+    </nav>
+
+    <div class="container">
+        <!--ide kerülnek beolvasásra az objektumból a csokoládék-->
+        <div class="row" id="ekszer-lista"></div>
+        <hr>
+        <!--új termék felvitele-->
+        <button type="button" class="btn btn-primary" id="ujtermek">Új termék felvitele</button>
+        <!--űrlap megjelenítése-->
+        <div class="row" id="uj"></div>
+        <!--Termék módosítása-->
+        <div class="row">
+            <div id="szerkesztes"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
